@@ -3,17 +3,15 @@
   <head>
     <link rel="stylesheet" href="https://use.typekit.net/nqz6ubp.css">
     <title>Campaign Finance Reform</title>
-    
-      <script src="https://d3js.org/d3.v7.min.js"></script>
-      <script src="https://unpkg.com/d3-svg-annotation@2.5.1/d3-annotation.min.js"></script>
-    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/d3-svg-annotation@2.5.1/d3-annotation.min.js"></script>
   <link rel="icon" href="favicon.ico"><script defer src="bundle.js"></script></head>
   <body class="body-scroll">
     <nav>
       <div class="aib-logo"><img src="assets/img/apathy-is-boring-logo-1.png"></div>
       <div id="controls">
-        <!-- <button id="stop-everything" class="stop-button">STOP EVERYTHING</button>
-        <button id="save-logs" class="save-button">SAVE LOGS</button> -->
+        <!-- <button id="stop-everything" class="stop-button">STOP EVERYTHING</button> -->
+        <!-- <button id="save-logs" class="save-button">SAVE LOGS</button> -->
         <!-- <button id="toggle-layout">Toggle Layout</button>
         <button id="toggle-radius">Toggle Radius</button>
         <button id="toggle-separation">Toggle Separation</button>
@@ -105,6 +103,7 @@
       <div class="sticky-wrapper">
         <div class="content-block trigger-div" data-view="goldProportionOfDonations">
           <h2>These elite donors are responsible for nearly half of donations to parties</h2>
+          <h3>NOTE: We don't have the data for this level of granularity. Need to combine the under-1000 group together if we want to show this slide</h3>
           <div class="scroll-arrow small text-indicator"></div>
         </div>
       </div>
@@ -173,6 +172,7 @@
         <div class="content-block trigger-div" data-view="howTaxCreditWorksOutOfPocket">
           <h2>So only part of your donation ends up being out-of-pocket</h2>
           <h3>And the government pays for the rest</h3>
+          <h3>NOTE: This view has a bunch of extra annotations because I'm still hooking it up to the data</h3>
           <div class="scroll-arrow small text-indicator"></div>
         </div>
       </div>
@@ -297,7 +297,7 @@
       <div id="chart1"></div>
     </main>
     <footer>
-      <div class="footer-data-item" id="simulation-info" style="display: none;"></div>
+      <!-- <div class="footer-data-item" id="simulation-info"></div> -->
     </footer>
   </body>
 </html> 
